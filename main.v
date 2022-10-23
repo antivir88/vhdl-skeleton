@@ -1,4 +1,4 @@
-module vidac
+module main
 (
 );
 

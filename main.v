@@ -1,0 +1,7 @@
+module vidac
+(
+);
+
+//
+
+endmodule

@@ -1,6 +1,8 @@
 clean:
 	rm -rf obj_dir
+	rm test
 	rm prog
+	rm out.vcd
 
 # холостая компиляция
 vbuild:

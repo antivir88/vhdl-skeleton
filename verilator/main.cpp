@@ -33,8 +33,9 @@ int main(int argc, char** argv)
     printf("traced: %d\n", TRACED);
   }
 
+  module->final();
+
   #if TRACED==true
-   module->final();
    if (vcd) {
      vcd->close();
    }
